@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Social Media Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="your-integrity-hash"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <i class="fa-solid fa-bars toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu">
+          <div class="info">
+            <img
+              src="Images/—Pngtree—user cartoon girl avatar_4492903.png"
+              alt=""
+            />
+            <h2>Jan</h2>
+          </div>
+          <ul class="menu-links">
+            <li class="search-box">
+              <input type="text" placeholder="Search" />
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-house"></i><span>Dashboard</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-regular fa-bell"></i><span>notifications</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-gear"></i><span>settings</span></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-right-from-bracket"></i
+                ><span>logout</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+      <div class="heading">
+        <h1>Social Media DashBoard</h1>
+        <p>Total followers: 15,324</p>
+      </div>
+      <div class="card-box">
+        <div class="card">
+          <i class="fa-brands fa-facebook" style="color: rgb(66 133 244)"></i>
+          <i class="fa-solid fa-ellipsis-vertical detail"></i>
+          <div class="options"><span>details</span><hr><span>share</span></div>
+          <span class="num">10k</span>
+          <span>followers</span>
+          <span>+ 1000 Today</span>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-twitter" style="color: #249dee"></i>
+          <i class="fa-solid fa-ellipsis-vertical detail"></i>
+          <div class="options"><span>details</span><hr><span>share</span></div>
+          <span class="num">2550</span>
+          <span>followers</span>
+
+          <span>+ 210 Today</span>
+        </div>
+        <div class="card">
+          <i class="fa-brands fa-youtube" style="color: red"></i>
+          <i class="fa-solid fa-ellipsis-vertical detail"></i>
+          <div class="options"><span>details</span><hr><span>share</span></div>
+          <span class="num">324</span>
+          <span>subscribers</span>
+          <span>- 50 Today</span>
+        </div>
+        <div class="card">
+          <img src="Images/instagram.png" width="30" alt="" />
+          <i class="fa-solid fa-ellipsis-vertical detail"></i>
+          <div class="options"><span>details</span><hr><span>share</span></div>
+          <span class="num">2450</span>
+          <span>followers</span>
+          <span>- 100 Today</span>
+        </div>
+       
+      </div>
+      <div id="chart">
+      </div>
+      <h2>Overview - Today</h2>
+      <div class="card-box overview">
+        <div class="card">
+          <span>Page Views</span>
+          <i class="fa-brands fa-facebook" style="color: rgb(66 133 244)"></i>
+          <span class="num">20k</span>
+          <div><i class="fa-solid fa-caret-up"></i>
+          <span>20%</span></div>
+        </div>
+        <div class="card">
+          <span>Likes</span>
+          <i class="fa-brands fa-facebook" style="color: rgb(66 133 244)"></i>
+          <span class="num">11k</span>
+          <div><i class="fa-solid fa-caret-up"></i>
+          <span>30%</span></div>
+        </div>
+        <div class="card">
+          <span>Retweets</span>
+          <i class="fa-brands fa-twitter" style="color: #249dee"></i>
+          <span class="num">100</span>
+          <div><i class="fa-solid fa-caret-up"></i>
+          <span>2%</span></div>
+        </div>
+        <div class="card">
+          <span>Likes</span>
+          <i class="fa-brands fa-youtube" style="color: red"></i>
+          <span class="num">5320</span>
+          <div><i class="fa-solid fa-caret-down"></i>
+          <span>3%</span></div>
+        </div>
+        <div class="card">
+          <span>Total Views</span>
+          <i class="fa-brands fa-youtube" style="color: red"></i>
+          <span class="num">9750</span>
+          <div><i class="fa-solid fa-caret-down"></i>
+          <span>5%</span></div>
+        </div>
+        
+        <div class="card">
+          <span>Profile Views</span>
+          <img src="Images/instagram.png" width="30" alt="" />
+          <span class="num">3280</span>
+          <div><i class="fa-solid fa-caret-up"></i>
+          <span>5%</span></div>
+        </div>
+        <div class="card">
+          <span>Likes</span>
+          <img src="Images/instagram.png" width="30" alt="" />
+          <span class="num">5273</span>
+          <div><i class="fa-solid fa-caret-down"></i>
+          <span>7%</span></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
